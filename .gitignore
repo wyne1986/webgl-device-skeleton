@@ -1,0 +1,8 @@
+.cordova/
+.nyc_output/
+.vscode/
+coverage/
+node_modules/
+platforms/
+plugins/
+www/node_modules/
