@@ -1,8 +1,8 @@
 {
-  "name": "com.threejscordovaskeleton.app",
+  "name": "com.webgldeviceskeleton.app",
   "version": "1.0.0",
-  "description": "Threejs cordova skeleton",
-  "displayName": "Threejs cordova skeleton",
+  "description": "Webgl device skeleton",
+  "displayName": "Webgl device skeleton",
   "scripts": {
     "serve": "npm run sync | npm run sync-babel | npm run sync-sass",
     "serve-device": "./node_modules/.bin/cordova run android --device",
