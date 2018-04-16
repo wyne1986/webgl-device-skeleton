@@ -1,22 +1,39 @@
 #  Webgl device skeleton
 ## 🎉 Features
-> Cordova skeleton for quick webgl rendering.
-* Cordova skeleton
-* ThreeJS light deployment
-* HTML, es6 and Sass watch
+>  Cordova skeleton for quick webgl rendering.
+* [Cordova](https://www.npmjs.com/package/cordova) skeleton
+* [ThreeJS](https://www.npmjs.com/package/three) light weight deployment
+* [Sass](https://www.npmjs.com/package/node-sass) and [JS](https://www.npmjs.com/package/babel-cli) watch and compile
+
+## 📦 Installation
+Clone this repository, install package and add plateform
+```
+git clone https://github.com/seeren/webgl-device-skeleton.git
+```
+
+```
+npm install
+```
+
+```
+./node_modules/.bin/cordova platform add android
+```
+
 ## 🚀 Serve
-`npm run serve`
+Open in browser
 ```
-npm run sync | npm run sync-babel | npm run sync-sass
+npm run serve
 ```
-`npm run serve-device`
+Open in device
 ```
-./node_modules/.bin/cordova run android --device
+npm run serve-device
 ```
+
 ## ⛏ Tests
-`npm test`
+Test with [mocha](https://www.npmjs.com/package/mocha)
 ```
-./node_modules/.bin/mocha --require babel-register --recursive test/unit
+npm run test
 ```
+
 ## 🎫 License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
