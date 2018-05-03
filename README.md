@@ -1,9 +1,9 @@
 #  Webgl device skeleton
 ## 🎉 Features
->  Cordova skeleton for quick webgl rendering
+>  Three Cordova skeleton for hybrid app using webgl 
 * [Cordova](https://www.npmjs.com/package/cordova) skeleton
-* [ThreeJS](https://www.npmjs.com/package/three) light weight deployment
-* [JS](https://www.npmjs.com/package/babel-cli) compile
+* [Three](https://www.npmjs.com/package/three) www deployment
+* [Babel](https://www.npmjs.com/package/babel-cli) setting
 ## 📦 Installation
 Install package
 ```
