@@ -1,9 +1,10 @@
 #  Webgl device skeleton
 ## 🎉 Features
 >  Three Cordova skeleton for hybrid app using webgl 
-* [Cordova](https://www.npmjs.com/package/cordova) skeleton
+* [Cordova](https://www.npmjs.com/package/cordova) ready skeleton
 * [Three](https://www.npmjs.com/package/three) www deployment
-* [Babel](https://www.npmjs.com/package/babel-cli) setting
+* [Es6](https://www.npmjs.com/package/babel-cli) and [Sass](https://www.npmjs.com/package/node-sass) watch
+
 ## 📦 Installation
 Install package
 ```
@@ -18,7 +19,7 @@ Open in browser
 ```
 npm run serve
 ```
-Open in device
+Open in device when is detected and connected
 ```
 npm run serve-device
 ```
