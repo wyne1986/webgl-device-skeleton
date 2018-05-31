@@ -34,7 +34,7 @@ renderer.shadowMap.type = window.THREE.PCFSoftShadowMap;
 app.append(renderer.domElement);
 scene.add((() => {
     let mesh = new window.THREE.Mesh(
-        new window.THREE.CircleGeometry(100, 32),
+        new window.THREE.CircleGeometry(100, 64),
         new window.THREE.MeshLambertMaterial({ color: 0xffffff, side: THREE.BackSide })
     );
     mesh.rotation.x = window.Math.PI / 2;
@@ -44,13 +44,13 @@ scene.add((() => {
 })());
 scene.add((() => {
     let mesh = new window.THREE.Mesh(
-        new window.THREE.SphereGeometry(100, 32, 32),
-        new window.THREE.MeshLambertMaterial({ color: 0xffffff, side: THREE.BackSide })
+        new window.THREE.SphereGeometry(100, 64, 64),
+        new window.THREE.MeshLambertMaterial({ color: 0x000000, side: THREE.BackSide })
     );
     mesh.castShadow = true;
     mesh.receiveShadow = true;
     return mesh;
 })());
-scene.add(new window.THREE.AmbientLight(0xffffff, 0.2));
+scene.add(new window.THREE.AmbientLight(0xffffff, 0.5));
 animate();
 new window.THREE.OrbitControls(camera, renderer.domElement);
